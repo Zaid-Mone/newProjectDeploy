@@ -1,9 +1,8 @@
 [build]
-	base = "template"
-	command = "npm run build:prod"
-	publish = "dist/"
+  command = "npm run build:prod"
+  publish = "dist/"
 
-	[[redirects]]
-	from = "/*"
-	to = "/index.html"
-	status = 200
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
